@@ -1,0 +1,53 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: rgb(39, 37, 37);
+}
+
+
+/*======== Container comands =========*/
+
+.container
+{
+    display: grid;
+    row-gap: 1.2rem;
+}
+.container input[type=text]
+{
+    outline: none;
+    border: none;
+    padding: .5rem;
+}
+
+.container input[type=button]
+{
+    padding: .3rem;
+    font-size: 1.5rem;
+
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid transparent;
+}
+
+.container input[type=button]:hover
+{
+    background: #2b2828;
+    color: #fefefe;
+    border: 1px solid #fefefe;
+}
+
+
+
+#msg
+{
+    color: #fefefe;
+    font-family: monospace;
+}
